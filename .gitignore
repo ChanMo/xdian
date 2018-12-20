@@ -1,0 +1,32 @@
+# vim 
+*.swp
+
+# conf
+*.cnf 
+
+# log
+*.log
+
+# python
+__pycache__/
+*.py[cod]
+
+# django
+media/
+static/
+migrations/
+db.sqlite3
+
+# env
+env/
+env*/
+
+# cert
+cert/
+cert_bak/
+
+# deployment
+deployment*
+
+# uwsgi
+uwsgi.ini
